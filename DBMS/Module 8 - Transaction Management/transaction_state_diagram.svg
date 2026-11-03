@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<defs><marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+<polygon points="0 0, 10 3.5, 0 7" fill="#333"/></marker></defs>
+<text x="450" y="32" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#1e293b">Transaction State Diagram</text>
+<rect x="30" y="70" width="170" height="60" rx="10" fill="#eef4ff" stroke="#2563eb" stroke-width="2"/>
+<text x="115.0" y="106.0" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Active</text>
+<rect x="255" y="70" width="200" height="60" rx="10" fill="#eef4ff" stroke="#2563eb" stroke-width="2"/>
+<text x="355.0" y="106.0" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Partially Committed</text>
+<rect x="510" y="70" width="160" height="60" rx="10" fill="#eef4ff" stroke="#2563eb" stroke-width="2"/>
+<text x="590.0" y="106.0" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Committed</text>
+<rect x="725" y="70" width="150" height="60" rx="10" fill="#eef4ff" stroke="#2563eb" stroke-width="2"/>
+<text x="800.0" y="106.0" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Terminated</text>
+<line x1="200" y1="100" x2="252" y2="100" stroke="#333" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="455" y1="100" x2="507" y2="100" stroke="#333" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="670" y1="100" x2="722" y2="100" stroke="#333" stroke-width="2.5" marker-end="url(#arr)"/>
+<rect x="255" y="230" width="170" height="60" rx="10" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+<text x="340.0" y="266.0" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Failed</text>
+<rect x="480" y="230" width="170" height="60" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="565.0" y="266.0" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e293b">Aborted</text>
+<line x1="115" y1="130" x2="300" y2="227" stroke="#333" stroke-width="2.5" marker-end="url(#arr)"/><text x="200" y="190" text-anchor="middle" font-family="sans-serif" font-size="14" font-style="italic" fill="#475569">failure</text>
+<line x1="355" y1="260" x2="300" y2="200" stroke="#333" stroke-width="2.5" marker-end="url(#arr)"/><text x="360" y="225" text-anchor="middle" font-family="sans-serif" font-size="14" font-style="italic" fill="#475569">failure</text>
+<line x1="425" y1="260" x2="477" y2="260" stroke="#333" stroke-width="2.5" marker-end="url(#arr)"/><text x="451" y="250" text-anchor="middle" font-family="sans-serif" font-size="14" font-style="italic" fill="#475569">rollback</text>
+<line x1="650" y1="260" x2="790" y2="130" stroke="#333" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="735" y="200" text-anchor="middle" font-family="sans-serif" font-size="14" font-style="italic" fill="#475569">finished</text>
+</svg>

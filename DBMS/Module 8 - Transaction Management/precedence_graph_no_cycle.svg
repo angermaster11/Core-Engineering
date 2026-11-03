@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300">
+<defs><marker id="arr" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+<polygon points="0 0, 10 3.5, 0 7" fill="#333"/></marker></defs>
+<text x="280" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1e293b">Precedence Graph — No Cycle</text>
+<text x="280" y="56" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#475569">R1(A), W1(A), R2(A), W2(A)</text>
+<circle cx="140" cy="170" r="52" fill="#eef4ff" stroke="#2563eb" stroke-width="3"/>
+<text x="140" y="178" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#1e293b">T1</text>
+<circle cx="420" cy="170" r="52" fill="#eef4ff" stroke="#2563eb" stroke-width="3"/>
+<text x="420" y="178" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#1e293b">T2</text>
+<line x1="192" y1="170" x2="365" y2="170" stroke="#333" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="280" y="150" text-anchor="middle" font-family="sans-serif" font-size="14" font-style="italic" fill="#475569">W1(A) before R2(A)</text>
+<text x="280" y="268" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#15803d">No cycle → Conflict Serializable (T1 → T2)</text>
+</svg>
